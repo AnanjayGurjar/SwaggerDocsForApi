@@ -86,3 +86,6 @@ app.post("/api/v1/courseUpload", (req, res) => {
 app.listen(4000, () => {
     console.log(`Server is running at port 4000...`);
 });
+
+//mongoose is the orm/odm for mongodb
+//schema is the structure of how the data is going to look like

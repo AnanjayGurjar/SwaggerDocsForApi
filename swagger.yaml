@@ -13,7 +13,6 @@ info:
 #   - url: "http://localhost:4000/api/v1"
 #     description: for local host - regular
 
-
 #using variables to describe the servers
 
 servers:
@@ -176,8 +175,8 @@ paths:
           500:
             description: Internal server error
 
-
 #computed url - http://localhost:4000/api/v1/courseQuery?location=delhi&device=web
+
   /courseQuery:
       get:
         tags:
@@ -213,7 +212,6 @@ paths:
             description: Bad Request
           500:
             description: Internal server error
-
 
   /courseUpload:
       post:
